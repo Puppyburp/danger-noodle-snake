@@ -1,0 +1,19 @@
+footer {
+  min-height: 150px;
+  background-color: #075576;
+  text-align: center;
+  color: #f3f3f3;
+  /* padding: 3em 0 1em 0; */
+  margin-top: 5em;
+  width: 100%;
+  position: sticky;
+  font-size: .85em;
+}
+
+hr {
+  margin-bottom: 4em;
+/* make it glow! */
+-webkit-box-shadow: 0px 0px 4px #df1bbf;
+    -moz-box-shadow: 0px 0px 4px #df1bbf;
+        box-shadow: 0px 0px 4px #df1bbf;
+}

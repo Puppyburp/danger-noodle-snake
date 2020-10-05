@@ -1,0 +1,47 @@
+.navbar {
+  background: linear-gradient(180deg, #fcbd22 0%, #fcbd22 10%, #df1bbf 100%);
+  width: 100%;
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,.4);
+  font-family: 'Press Start 2P', cursive;
+}
+
+.logo {
+  width: 240px;
+  padding: 1em;
+}
+
+/* nav {
+  height: 100px;
+  line-height: 100px;
+} */
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  height: 100px;
+  line-height: 100px;
+}
+
+nav .button-collapse i {
+  height: 100px;
+  line-height: 100px;
+}
+
+nav .brand-logo { 
+  font-size: 1.6rem; 
+}
+
+@media only screen and (min-width: 601px){
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+      height: 100px;
+      line-height: 100px;
+  }
+}
+
+iframe {
+  /* border-radius: 50px; */
+  /* position: absolute;
+  left: 150vh;
+  top: 11vh;
+  z-index: 1; */
+  background:transparent;
+}
+

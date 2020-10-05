@@ -1,0 +1,79 @@
+.form-row {
+  margin-top: 2em;
+}
+
+.row .col.s12 {
+  padding: 1em;
+}
+
+.form {
+  margin: 1em;
+  background-color: #49015f;
+  border: 2px #df1bbf solid;
+  /* round the corners */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  /* make it glow! */
+  -webkit-box-shadow: 0px 0px 4px #df1bbf;
+  -moz-box-shadow: 0px 0px 4px #df1bbf;
+  box-shadow: 0px 0px 4px #df1bbf;
+}
+
+.input-field input {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+input#email, input#name {
+  padding: 0 0.5em !important;
+}
+
+input#password, input#name, input#email, input#password2 {
+  color: white;
+}
+
+.span-yellow {
+  color: #fcbd22 !important;
+}
+
+.span-yellow:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  background-color: transparent;
+  font-family: "Press Start 2P", sans-serif;
+  border: 2px #fcbd22 solid;
+}
+
+.login-btn:hover {
+  background-color: transparent;
+  border: 2px #df1bbf solid;
+  /* round the corners */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  /* make it glow! */
+  -webkit-box-shadow: 0px 0px 4px #df1bbf;
+  -moz-box-shadow: 0px 0px 4px #df1bbf;
+  box-shadow: 0px 0px 4px #df1bbf;
+}
+
+.input-field.col.s12 {
+  border-bottom: #fcbd22 !important;
+  -webkit-box-shadow: #fcbd22 !important;
+  box-shadow: #fcbd22 !important;
+}
+.input-field:active {
+  border-bottom: #fcbd22 !important;
+  -webkit-box-shadow: #fcbd22 !important;
+  box-shadow: #fcbd22 !important;
+}
+
+.input-field label {
+  color: #fff;
+}
+
+.row .col.offset-s2 {
+  padding: 2em;
+}
