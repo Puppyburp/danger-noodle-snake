@@ -30,6 +30,9 @@ app.use(bodyParser.json());
 //   )
 //   .then(() => console.log("MongoDB successfully connected"))
 //   .catch(err => console.log(err));
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+}
 
 mongoose.connect(
   process.env.MONGODB_URI || 'mongodb://localhost/boiling-journey',
