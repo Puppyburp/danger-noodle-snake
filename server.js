@@ -20,8 +20,6 @@ app.use(bodyParser.json());
 // DB Config
 // const db = require("./config/keys").mongoURI;
 
-// const db = require("./config/keys").process.env.MONGODB_URI || 'mongodb://localhost/boiling-journey'
-
 // Connect to MongoDB
 // mongoose
 //   .connect(
@@ -30,6 +28,9 @@ app.use(bodyParser.json());
 //   )
 //   .then(() => console.log("MongoDB successfully connected"))
 //   .catch(err => console.log(err));
+
+
+// Heroku additions
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
@@ -44,11 +45,6 @@ mongoose.connect(
   }
 );
 
-
-//   .then(() => console.log("MongoDB successfully connected"))
-//   .catch(err => console.log(err));
-
-
 // Passport middleware
 app.use(passport.initialize());
 
@@ -59,6 +55,6 @@ require("./config/passport")(passport);
 app.use("/api/users", users);
 app.use("/api/score", score);
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 app.listen(port, () => console.log(`Server up and running on port ${port}!`));
