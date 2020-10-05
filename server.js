@@ -36,7 +36,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/boiling-journey',
+  process.env.MONGODB_URI || 'mongodb://localhost/boiling-journey-64887',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
