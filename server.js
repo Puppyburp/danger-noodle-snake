@@ -35,13 +35,14 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
 
+// Connect to MongoDB
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/boiling-journey-64887',
+  process.env.MONGODB_URI || 'mongodb://localhost/boiling-journey',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
+    // useCreateIndex: true,
+    // useFindAndModify: false
   }
 );
 
