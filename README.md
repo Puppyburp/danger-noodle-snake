@@ -43,4 +43,4 @@ A MERN based traditional, snake game featuring user registration, login, and aut
 
   ## Demo:
   
-  ![](https://drive.google.com/file/d/1FME1cxXWMbPwzYmSKHSPa0qsP_piXpbJ/view)
+  [App demo!](https://drive.google.com/file/d/1FME1cxXWMbPwzYmSKHSPa0qsP_piXpbJ/view)
