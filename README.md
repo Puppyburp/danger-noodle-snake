@@ -39,4 +39,8 @@ A MERN based traditional, snake game featuring user registration, login, and aut
   ```
   
   ## Technology
-  MongoDB, Mongoose, Express, React, Node, Passport, Materialize, Validator (require password + password parameters), is-Empty (check form input to confirm not empty), bcryptjs (hash password), Axios
+  MongoDB, Mongoose, Express, React, Node, Passport, Materialize, Validator (require password + password parameters), is-Empty (check form input to confirm not empty), bcryptjs (hash password), Axios, Redux
+
+  ## Demo:
+
+  <iframe src="https://drive.google.com/file/d/1FME1cxXWMbPwzYmSKHSPa0qsP_piXpbJ/preview" width="640" height="480"></iframe>
